@@ -83,7 +83,7 @@ router.post('/checkout', async (req, res, next) => {
 
 	          	if(x[0] !== undefined) {
 	          		// console.log(x[0]);
-	          		// isSCreated = true;
+	          		isSCreated = true;
 	          		return res.json({ isSCreated, sessionId: x[0].session_id });
 	          		// return res.render('checkout2', {
 					// 	docTitle: 'Checkout',
